@@ -1,2 +1,2 @@
 print("saba saghliani")
-print("this is day 1")
+print("this is day 2")
