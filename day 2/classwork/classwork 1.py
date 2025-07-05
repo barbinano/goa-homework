@@ -1,3 +1,4 @@
-ricxvi_1 = 26
-ricxvi_2 = 10
-print(ricxvi_1 + ricxvi_2)  
+name=10
+name2= "saba"
+
+print(name * name2)
