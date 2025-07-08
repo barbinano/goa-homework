@@ -53,32 +53,32 @@ answer_4 = a / b
 
 
 
-print ("name:" + name )
+print ( name )
 
-print ("surname:" + surname )
+print ( surname )
 
-print ("city:" + city )     
+print ( city )     
 
-print ("country:" + country )
-
-
-
-print ( "age:" + str(age) )
-
-print ( "birth year:" + str(birth_year) )
-
-print ( "birth month:" + str(birth_month) )
-
-print ( "birth day:" + str(birth_day) )
+print ( country )
 
 
-print ( "height:" + str(height) )
 
-print ( "weight:" + str(weight) )
+print (age)
 
-print ( "time of day:" + str(time_of_day) )  
+print (birth_year)
 
-print ( "answer 4:" + str(answer_4) )
+print ( birth_month) 
+
+print (birth_day)
+
+
+print (height)
+
+print (weight) 
+
+print ( time_of_day) 
+
+print (answer_4)
 
 
 
@@ -125,7 +125,7 @@ answer_2 = float_num + int_num  # ჯამი
 answer_3 = float_num - int_num  # სხვაობა
 
 
-print("ნამრავლი:", answer_1)
-print("ჯამი:", answer_2)        
-print("სხვაობა:", answer_3)      
+print(answer_1)
+print(answer_2)        
+print(answer_3)      
 
