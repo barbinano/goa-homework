@@ -2,64 +2,42 @@
 
 
 
-string_1=("i")
-
-string_2=("always")
-
-string_3=("come")
-
-string_4=("back")
+string_1="i"
+string_2="always"
+string_3="come"
+string_4="back"
 
 
 num_1=16
-
 num_2=15
-
 num_3=17
-
 num_4=14
 
 
 
 
 float_1=3.1
-
 float_2=4.3
-
 float_3=5.2
-
 float_4=6.3
 
 
 
-
 print(string_1)
-
 print(string_2)
-
 print(string_3)
-
 print(string_4)
 
 
-
 print(num_1)
-
 print(num_2)
-
 print(num_3)
-
 print(num_4)
 
 
-
-
 print(float_1)
-
 print(float_2)
-
 print(float_3)
-
 print(float_4)
 
 
