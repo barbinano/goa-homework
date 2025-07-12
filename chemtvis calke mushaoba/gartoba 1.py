@@ -14,4 +14,4 @@ def age_authenticator(age, salary):
         print("You are allowed to access this content without any restrictions.")
    
 
-age_authenticator(18,2000.1)
+age_authenticator(18)
