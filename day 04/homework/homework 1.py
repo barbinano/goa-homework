@@ -99,8 +99,8 @@ print(answer)
 your_name=input("what is your name? ")
 surname=input("what is your surname? ")
 your_age=input("how old are you? ")
-your_height=("how tall are you? ")
-your_weight=("what is your weight? ")
+your_height=input("how tall are you? ")
+your_weight=input("what is your weight? ")
 
 
-print("მონაცემები:" + your_name + surname + your_age + your_height + your_weight)
+print("მონაცემები: " + your_name + " " + surname + " " + your_age + " " + your_height + " " + your_weight)
