@@ -107,3 +107,9 @@ string  = input ( " your name: ")
 
 print(type(integer))
 print(type(float ))
+print(type(string))
+
+
+print(integer)
+print(float )
+print(string)
