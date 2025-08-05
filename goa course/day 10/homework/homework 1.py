@@ -24,7 +24,7 @@ for i in range(10,100,3):
 #....
 #....
 #30 ფორთოხალი
-for i in range(18):
+for i in range(30):
     print(str(i) + "ფორთოხალი")
 #7)მომხმარებელს შემოატანინეთ მისი ასაკი 13 ჯერ გამოიყენე for loop
 your_name=input("your name:")
@@ -44,12 +44,12 @@ while i <24:
 #10) იმუშაოვეთ ბევრი for და while loop ებზე მოიყვანეთ თქვენით მაგალითები სურვილისამებრ
 
 i=0
-while i <24:
+while i <28:
     print(i)
     i=i+1
 
-for i in range(18):
-    print(str(i) + "ფორთოხალი")
+for i in range(67):
+    print(i)
 
-for i in range(12,120):
+for i in range(11,100):
     print(i)
