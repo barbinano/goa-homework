@@ -14,9 +14,9 @@ def slow_input(prompt):
 
 # Step 1: Store account information 
 accounts = {
-    "saba": {"password": "1111", "balance": 30.0, "history": [], "card": None, "card balance" : 0.0},
-    "gia": {"password": "2222", "balance": 20.0, "history": [], "card": None, "card balance" : 0.0},
-    "admin": {"password": "admin", "balance": 0.0, "history": [], "card": None, "card balance" : 0.0}  # special admin account
+    "saba": {"password": "1111", "balance": 30.0, "history": [],},
+    "gia": {"password": "2222", "balance": 20.0, "history": [], },
+    "admin": {"password": "admin", "balance": 0.0, "history": [],}  # special admin account
 }
 
 transaction_fee = 0.10
@@ -85,8 +85,7 @@ while True:
                                 accounts[recipient]['balance'] += amount
                                 accounts[username]['history'].append(
                                     f"Transferred ₾{amount} to {recipient} (-₾{transaction_fee} fee)")
-                                accounts[recipient]['history'].append(
-                                    f"Received ₾{amount} from {username}")
+                                accounts[recipient]['history'].append(f"Received ₾{amount} from {username}")
                                 slow_print("Transfer successful! Fee applied.")
                             else:
                                 slow_print("Insufficient funds!")
@@ -109,7 +108,7 @@ while True:
                         while True:
                             slow_print("\n choose options 1-4")
                             slow_print("1. Change password")
-                           
+                            
                             slow_print("3. Delete account")
                             slow_print("4. exit account settings")
                             account_settings_option=slow_input("choose option 1-4")
