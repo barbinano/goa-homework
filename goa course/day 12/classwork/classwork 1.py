@@ -20,7 +20,7 @@ while i<20:
 #მაშინ გამოუტანოს რომ იგი ზრდასრულია, ხოლო თუ იქნება 18-ზე ნაკლები საბოლოო გზის მეშვეობით გამოუტანეთ რომ ის მოზარდია.
 
 
-#ეს კოდი კლასში დავწერე მასწავლებელი სანამ ხსნიდა.
+#ეს კოდი ადრე დავწერე, სწორია?.
 #start
 def age_authenticator(age):
     if age < 15:
@@ -40,9 +40,9 @@ age_authenticator(age)
 #finish
 
 
-#ეს დავალებაა
+#ეს კი დავალებაა
 
-age=input("what is your age?")
+age=int(input("what is your age?"))
 if age>=18:
     print("you are old")
 else: print ('you are too young' )
