@@ -70,8 +70,6 @@ def loading_screen_0(choice_option):
 
 
 
-
-
 def slow_print(text):
     for char in text:
         print(char, end="", flush=True)
