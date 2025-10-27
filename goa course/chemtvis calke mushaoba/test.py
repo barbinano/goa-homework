@@ -1,18 +1,19 @@
-#0) შექმენი ცვლადი -> total = 0  
-    #for ციკლით დაამატე 1 დან 10 მდე ყველა რიცხვი total-ში.  
-    #ბოლოს დაბეჭდე -> "ჯამი არის: X".
+#6) <= Boss Level =>
+#შექმენით სია სადაც შეინახავთ სხვადასხვა სტრინგებს.
+#--> დაპრინტეთ ამ სიიდან ყველაზე გრძელი სტრინგი
 
 
-total = 0  
+list_4=["georgia" , "USA" , "russia" , "india" , "pakistan", "beard" , "crest"]
+
+length_6=len(list_4)
 
 
-for i in range(0,11):
-    total=total+i
-print(total)
+longest=list_4[0]
 
 
+for i in range(length_6):
+    if len(list_4[i]) > len(longest):
+        longest=(list_4[i])
 
-
-
-
- 
+print(longest)
+    
