@@ -1,9 +1,7 @@
-text_2 = input("შეიყვანე ტექსტი: ")
+names_2 = ["GIORGI", "NIKA", "MARI", "ANA"]
 
-length=len(text_2)
+length_2=len(names_2)
 
-
-for i in range(length):
-    if text_2[i] == 'a' or text_2[i] == 'A':
-        continue
-    print(text_2[i])
+for i in range(length_2):
+    
+    print(names_2[i].lower())
