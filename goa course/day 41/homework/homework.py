@@ -171,7 +171,7 @@ print(colors)
 
 items = ["pen", "pencil", "book", "eraser"]
 
-index = int(input("მიუთითე რიცხვი 0-დან 3-მდე: "))
+index = int(input("მიუთითე რიცხვი 0-დან 4-მდე: "))
 items.pop(index)
 
 print(items)
