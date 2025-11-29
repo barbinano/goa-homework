@@ -47,6 +47,7 @@ numbers_4.extend(numbers_5)
 print(numbers_4)
 
 
+
 # 9) შექმენი სია სახელად foods და დააბრუნე შებრუნებული სია.
 
 foods = ["bread", "milk", "cheese"]
