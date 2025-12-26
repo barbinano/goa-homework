@@ -170,7 +170,7 @@ while True:
                     elif bank_choice == "4":
                         recipient = slow_input("Enter recipient username: ")
                         if recipient in accounts and recipient != username:
-                            amount = float(slow_input("Enter transfer amount: "))
+                            amount = float(slow_input("Enter transfer amount: "))   
                             total = amount + transaction_fee
                             if total <= accounts[username]['balance']:
                                 accounts[username]['balance'] -= total
