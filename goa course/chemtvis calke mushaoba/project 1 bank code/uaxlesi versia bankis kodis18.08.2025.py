@@ -245,7 +245,7 @@ while True:
 
                     elif bank_choice == "7" and username == "admin":
                         loading_screen_1(bank_choice)
-                        slow_print("All accounts:")
+                        slow_print("\nAll accounts:")
                         for user, data in accounts.items():
                             slow_print(f"- {user}: {data['balance']:.2f} {data['currency']}")
 

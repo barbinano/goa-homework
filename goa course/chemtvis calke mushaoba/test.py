@@ -1,27 +1,13 @@
-# words = ["GameAB", "hello", "good", "pythON", "GoLD", "code"]
+text = "Python"
+reverse=" "
 
-# empty=[]
-
-# for i in words:
-#     if i[0]==("G") and i[-2:]==i[-2:].upper():
-#         continue
-#     elif i==i.lower():
-#         empty.append(i.upper())
+for i in range(len(text)):
+   
+    b = i - i*2 -1
+    reverse +=  text[b]
 
 
-# print(empty)
+print(reverse)
+    
+   
 
-
-
-
-words_1=["saba",  "Beqa" , "emzari"]
-
-
-empty=[]
-
-for i in words_1:
-    if i[0]==i[0].lower():
-        empty.append(i)
-
-
-print(empty)
