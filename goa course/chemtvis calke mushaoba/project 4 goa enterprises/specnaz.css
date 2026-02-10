@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#body {
+    background-color: #0a0a0a;
+    color: white;
+}
+
+
+#header {
+    background-color: black;
+    padding: 20px;
+    border-bottom: 3px solid #1aff5c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_1 {
+    text-decoration: none;
+    color: #1aff5c;
+}
+
+#nav {
+    color: white;
+    margin-left: 20px;
+    
+
+}
+
+
+#nav_1 { 
+    text-decoration: none; 
+    color: white;
+
+}
+
+#nav_2 { 
+    text-decoration: none; 
+    color: white;
+
+}
+
+#nav_3 { 
+    text-decoration: none; 
+    color: white;
+
+}
+
+
+#nav_1:hover{
+    color: #1aff5c;
+}
+
+#nav_2:hover{
+    color: #1aff5c;
+}
+
+#nav_3:hover {
+    color: #1aff5c;
+}
+
+
+#gurami {
+    height: 540px;
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#aleko {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 1300px;
+    opacity: 0.1;   
+    
+
+}
+
+
+#gurami_1 {
+    color: #1aff5c;
+    font-size: 41px;
+}
+
+#gurami_2 {
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+
+#about {
+    padding: 50px 60px; 
+    text-align: center;
+    border: 3px solid #1aff5c;
+    width: 1200px;
+    height: 300px;
+    position: relative;
+    left: 450px;
+    font-size: 18px;
+
+}
+
+#title {
+    color: #1aff5c;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+
+#images {
+    padding: 60px 120px; 
+    text-align: center;
+
+}
+
+#images_1 {
+    color: #1aff5c;
+    margin-bottom: 20px;
+}
+
+#images_2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#images_3 {
+    width: 500px;
+    border: 3px solid #1afc5a;
+    transition: transform 0.3s;
+}
+
+#images_4 {
+    width: 500px;
+    border: 3px solid #1aff5c;
+    transition: transform 0.3s;
+}
+
+#images_3:hover {
+    transform: scale(1.05);
+}
+
+#images_4:hover {
+    transform: scale(1.05);
+}
+
+
+#video {
+    padding: 60px 120px; 
+    text-align: center;
+}
+
+#video_1 {
+    color: #1aff5c;
+    margin-bottom: 20px;
+}
+
+#video_2 {
+    width: 840px; 
+    border: 3px solid #1aff5c;
+}
+
+
+#footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #1aff5c;
+}
+

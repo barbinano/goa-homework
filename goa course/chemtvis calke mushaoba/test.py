@@ -1,13 +1,6 @@
-text = "Python"
-reverse=" "
+word = input("შეიყვანეთ სიტყვა: ")
 
-for i in range(len(text)):
-   
-    b = i - i*2 -1
-    reverse +=  text[b]
-
-
-print(reverse)
-    
-   
-
+for i in word:
+    if word.count(i) == 1:
+        print(i)
+        break

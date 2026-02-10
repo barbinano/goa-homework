@@ -1,0 +1,115 @@
+
+
+#box1 {
+    background-color: lightblue;
+    color: darkblue;
+    width: 300px;
+    height: 150px;
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+
+#parent {
+    color: red;
+}
+
+#parent p {
+    color: black;
+}
+
+
+#mainTitle {
+    color: purple;
+    font-size: 40px;
+}
+
+
+#divA {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+#divB {
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+#car1 {
+    color: red;
+}
+
+#car2 {
+    color: blue;
+    font-size: 18px;
+}
+
+#car3 {
+    color: green;
+    font-weight: bold;
+}
+
+#car4 {
+    color: orange;
+    text-decoration: underline;
+}
+
+#car5 {
+    color: purple;
+    font-style: italic;
+}
+
+
+#geo {
+    color: red;
+}
+
+#usa {
+    color: blue;
+}
+
+#fra {
+    color: green;
+}
+
+#ger {
+    color: black;
+}
+
+#ita {
+    color: orange;
+}
+
+#container1 {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+#container2 {
+    width: 220px;
+    height: 120px;
+    background-color: lightgreen;
+}
+
+#container3 {
+    width: 240px;
+    height: 140px;
+    background-color: lightpink;
+}
+
+
+#container1 button {
+    background-color: blue;
+    color: white;
+}
+
+#container2 button {
+    background-color: green;
+    color: white;
+}
+
+#container3 button {
+    background-color: red;
+    color: white;
+}

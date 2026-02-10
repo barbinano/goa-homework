@@ -1,0 +1,21 @@
+#div1 {
+    color: red;
+    }
+
+#italic1 {
+        font-style: italic;
+        font-size: 20px;
+        }
+
+#div2 {
+        color: blue;
+    }
+
+#italic2 {
+        color: yellow;
+        }
+
+#italic3 {
+        color: green;
+        background-color: yellow;
+        }

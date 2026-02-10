@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+}
+
+#table {
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+#numbers {
+    background-color: #f1e300;
+    border: 2px solid #333;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+#singular {
+    background-color: #f0a000;
+    border: 2px solid #333;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+#plural {
+    background-color: #8bc34a;
+    border: 2px solid #333;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+
+#one {
+    background-color: #f6c76a;
+    border: 2px solid #333;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+#boy {
+    background-color: #f28b64;
+    border: 2px solid #333;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+#boys {
+    background-color: #f4c55a;
+    border: 2px solid #333;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+#two {
+    background-color: #e53935;
+    color: white;
+    border: 2px solid #333;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+#man {
+    background-color: #e0e0e0;
+    border: 2px solid #333;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+#men {
+    background-color: #00acc1;
+    color: white;
+    border: 2px solid #333;
+    padding: 12px 24px;
+    font-size: 18px;
+}
