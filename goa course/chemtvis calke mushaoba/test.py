@@ -1,6 +1,7 @@
-word = input("შეიყვანეთ სიტყვა: ")
+def to_uppercase(text):
+    return text.upper()
+ 
 
-for i in word:
-    if word.count(i) == 1:
-        print(i)
-        break
+print(to_uppercase("python"))
+print(to_uppercase("Hello World"))
+print(to_uppercase("გამარჯობა"))

@@ -186,7 +186,7 @@ def first_letter(name):
     return name[0]
 
 print(first_letter("Giorgi"))
-print(first_letter("Nino"))
+print(first_letter("saba"))
 print(first_letter("Luka"))
 
 
@@ -236,7 +236,7 @@ def check_password(password):
 
 print(check_password("python123"))
 print(check_password("123python"))
-print(check_password("admin"))
+print(check_password("kirky"))
 
 
 
@@ -248,12 +248,11 @@ print(check_password("admin"))
 
 # გამოიძახე ფუნქცია რამდენჯერმე სხვადასხვა არგუმენტებით
 
-# 12) ტექსტის დიდ ასოებად გადაყვანის ფუნქცია
+
 def to_uppercase(text):
     return text.upper()
+ 
 
-
-# ფუნქციის გამოძახება სხვადასხვა არგუმენტებით
 print(to_uppercase("python"))
 print(to_uppercase("Hello World"))
-print(to_uppercase("გამარჯობა"))
+print(to_uppercase("privet"))
