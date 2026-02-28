@@ -1,0 +1,135 @@
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+
+
+.gfg {
+    font-size: 60px;
+    text-shadow: 5px 5px 0  limegreen;
+
+
+}
+
+
+
+.layered {
+    font-size: 80px;
+    color: #ff2fa0;
+    text-shadow: 
+        6px 6px 0 #4b4bff;
+}
+
+
+
+.double-layer {
+    font-size: 90px;
+    color: #4b4bff;
+    text-shadow:
+        6px 6px 0 #ff5ccf;
+}
+
+.green{
+    color:white;
+    font-size:70px;
+    font-weight:bold;
+    text-shadow:
+         0 0 60px #00ff00;
+}
+
+
+.shadow1{
+    text-shadow: 5px 5px 5px black;
+}
+
+.shadow2{
+    text-shadow: -5px -5px 8px blue;
+}
+
+
+.shadow3{
+    text-shadow: 0px 8px 10px red;
+}
+
+
+.shadow4{
+    text-shadow: 0 0 10px green;
+}
+
+.shadow5{
+    text-shadow:
+        4px 4px 5px purple,
+        -4px -4px 5px blue;
+}
+
+.underline{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: violet;
+    text-decoration-thickness: 4px;
+}
+
+
+.line{
+    text-decoration-line: line-through;
+    text-decoration-style: dashed;
+    text-decoration-color: green;
+    text-decoration-thickness: 4px;
+    margin:40px 0;
+}
+
+
+.overline{
+    text-decoration-line: overline;
+    text-decoration-style: dotted;
+    text-decoration-color: navy;
+    text-decoration-thickness: 4px;
+}
+
+
+
+
+.dec1{
+    text-decoration: underline overline solid red;
+    text-decoration-thickness: 3px;
+}
+
+
+.dec2{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: blue;
+    text-decoration-thickness: 4px;
+}
+
+
+.dec3{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: purple;
+    text-decoration-thickness: 3px;
+}
+
+
+.dec4{
+    text-decoration-line: underline overline;
+    text-decoration-style: dotted;
+    text-decoration-color: green;
+    text-decoration-thickness: 3px;
+}
+
+
+.dec5{
+    text-decoration-line: underline line-through;
+    text-decoration-style: solid;
+    text-decoration-color: orange;
+    text-decoration-thickness: 4px;
+}

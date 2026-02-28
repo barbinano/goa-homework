@@ -1,85 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
-<head id="head">
-    <meta id="meta-charset" charset="UTF-8">
-    <title id="page-title">GOA Aerospace</title>
-    <link rel="stylesheet" href="csstest.css">
+
+<html lang="ka">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=1280, height=720" name="viewport"/>
+<title>ინდუსტრიული ბიოტექნოლოგიის დადებითი მხარეები</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            position: relative;
+            overflow: hidden;
+        }
+        .content-wrapper {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 80px 100px;
+            position: relative;
+            z-index: 2;
+        }
+        .title-text {
+            font-size: 64px;
+            font-weight: 800;
+            color: #1F2937;
+            text-align: center;
+            margin: 0;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+        }
+        .title-highlight {
+            color: #059669;
+        }
+        .subtitle-text {
+            font-size: 20px;
+            font-weight: 400;
+            color: #6B7280;
+            text-align: center;
+            margin: 24px 0 0 0;
+            line-height: 1.6;
+            max-width: 900px;
+        }
+        .date-text {
+            font-size: 16px;
+            font-weight: 500;
+            color: #9CA3AF;
+            margin: 0;
+        }
+        .decoration-circle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.08;
+        }
+        .circle-1 {
+            width: 400px;
+            height: 400px;
+            background-color: #10B981;
+            top: -150px;
+            right: -100px;
+        }
+        .circle-2 {
+            width: 300px;
+            height: 300px;
+            background-color: #3B82F6;
+            bottom: -100px;
+            left: -80px;
+        }
+        .circle-3 {
+            width: 200px;
+            height: 200px;
+            background-color: #059669;
+            top: 50%;
+            left: -50px;
+            transform: translateY(-50%);
+        }
+        .icon-container {
+            display: flex;
+            gap: 40px;
+            margin-top: 48px;
+            align-items: center;
+        }
+        .icon-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+        .icon-circle {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+        }
+        .icon-circle.green {
+            background-color: #D1FAE5;
+            color: #059669;
+        }
+        .icon-circle.blue {
+            background-color: #DBEAFE;
+            color: #2563EB;
+        }
+        .icon-label {
+            font-size: 13px;
+            font-weight: 600;
+            color: #4B5563;
+            text-align: center;
+            margin: 0;
+        }
+        .bottom-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background-color: #10B981;
+        }
+    </style>
 </head>
-
-<body id="body">
-
-<header id="header">
-    <h1 id="header_1">GOA Aerospace</h1>
-
-    <nav id="navigation">
-        <a id="first" href="index.html">HOMEPAGE</a>
-    </nav>
-</header>
-
-<img id="aleko" src="jet-background.webp" alt="Advanced Jet Aircraft Background">
-
-<section id="gurami">
-    <h2 id="gurami_1">Supersonic Aerospace Engineering</h2>
-    <p id="gurami_2">Speed • Precision • Air Dominance</p>
-</section>
-
-<section id="about">
-    <h2 id="title">About GOA Aerospace</h2>
-    <p id="about-text">
-        GOA Aerospace Division
-
-        GOA Aerospace was founded to dominate the skies through innovation,
-        precision engineering, and advanced flight technology. Our aircraft
-        are designed by elite aerospace engineers and tested under extreme
-        conditions.
-
-        Every GOA jet integrates stealth materials, AI-assisted targeting,
-        next-generation avionics, and high-performance engines capable of
-        supersonic and hypersonic flight.
-
-        “Who controls the sky, controls the future.”
-    </p>
-</section>
-
-<section id="images">
-    <h2 id="images_1">Our Aircraft</h2>
-
-    <div id="images_2">
-
-        <div class="car-card">
-            <img src="fighter-jet.png" alt="GOA Fighter Jet">
-            <h3>GOA Phantom-X</h3>
-            <p>
-                Role: Stealth Fighter<br>
-                Top Speed: Mach 2.3<br>
-                Armament: Smart Missiles
+<body>
+<div class="slide-container">
+<div class="decoration-circle circle-1"></div>
+<div class="decoration-circle circle-2"></div>
+<div class="decoration-circle circle-3"></div>
+<div class="content-wrapper">
+<p class="title-text">
+<span class="title-highlight">ინდუსტრიული</span> ბიოტექნოლოგიის<br/>დადებითი მხარეები
             </p>
-        </div>
-
-        <div class="car-card">
-            <img src="interceptor-jet.png" alt="GOA Interceptor Jet">
-            <h3>GOA SkyRazor</h3>
-            <p>
-                Role: Interceptor Jet<br>
-                Engine: Twin Turbojet<br>
-                AI Combat Assistance
+<p class="subtitle-text">
+                გარემოსდაცვითი, ეკონომიკური და სოციალური სარგებელი · ინოვაციური პროდუქტები · ქართული ეკოსისტემის მაგალითები
             </p>
-        </div>
-
-    </div>
-</section>
-
-<section id="video">
-    <h2 id="video_1">Flight Testing & Combat Simulations</h2>
-
-    <video id="video_2" controls>
-        <source src="jet-test.mp4" type="video/mp4">
-    </video>
-</section>
-
-<footer id="footer">
-    <p id="footer_1">© 2026 GOA Aerospace</p>
-</footer>
-
+<div class="icon-container">
+<div class="icon-item">
+<div class="icon-circle green">
+<i class="fas fa-leaf"></i>
+</div>
+<p class="icon-label">გარემო</p>
+</div>
+<div class="icon-item">
+<div class="icon-circle blue">
+<i class="fas fa-chart-line"></i>
+</div>          
+<p class="icon-label">ეკონომიკა</p>
+</div>
+<div class="icon-item">
+<div class="icon-circle green">
+<i class="fas fa-users"></i>
+</div>
+<p class="icon-label">საზოგადოება</p>
+</div>
+<div class="icon-item">
+<div class="icon-circle blue">
+<i class="fas fa-flask"></i>
+</div>
+<p class="icon-label">ინოვაცია</p>
+</div>
+</div>
+<div style="margin-top: 60px;">
+<p class="date-text">2026</p>
+</div>
+</div>
+<div class="bottom-bar"></div>
+</div>
 </body>
 </html>

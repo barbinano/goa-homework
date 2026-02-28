@@ -1,0 +1,20 @@
+.paragraph {
+    text-decoration-line: underline overline line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+
+
+.blue {
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+    text-decoration-color: blue;
+}
+
+
+
+.green {
+    text-decoration-line: overline;
+    text-decoration-color: green;
+    text-decoration-style: dotted;
+}
