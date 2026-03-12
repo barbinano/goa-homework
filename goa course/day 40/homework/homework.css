@@ -1,0 +1,52 @@
+
+/* დავალება 3 */
+
+.title{
+    font-family: 'Poppins', sans-serif;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* დავალება 4 */
+
+.quote1{
+    width:400px;
+    margin:40px auto;
+    padding:20px;
+    border:1px solid #ccc;
+    background:#f9f9f9;
+    text-align:center;
+}
+
+.quote2{
+    font-family:'Merriweather', serif;
+    font-size:20px;
+}
+
+.author{
+    font-family:'Lato', sans-serif;
+    font-size:14px;
+    margin-top:10px;
+    color:gray;
+}
+
+
+/* დავალება 5 */
+
+.hero1{
+    height:300px;
+    background:#333;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.hero2{
+    font-family:'Oswald', sans-serif;
+    font-size:50px;
+    color:white;
+    text-shadow:0px 4px 6px black;
+}

@@ -1,41 +1,67 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  
-  <title></title>
+    <meta charset="UTF-8">
+    <title>Fonts Practice</title>
+
+
+    <link rel="stylesheet" href="homework.css">
+
+   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Merriweather&family=Lato&family=Oswald&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <!--1) შექმენით 3 პარაგრაფი იმაზე თუ რამდენად მოწადინებულები ხართ და ყველა პარაგრაფი გასტილეთ, ზომა მიეცით ყველას 40px, ფერი კი მწვანე, ლურჯი და ყვითელი, უკანა ფონის ფერი გაუწერეთ ვარდისფერი, ყველა პარაგრაფი ეწეროს ცენტრში და ჰქონდეთ 3px სისქის წითელი ზღვარი.-->
 
-  <p style="font-size:40px; color:green; background:white; text-align:center; border:3px solid red; padding:10px;">მე ძალიან მეწადინება სწავლა, ყოველდღე ვსწავლობ და ვარჯიშობ.</p>
-  <p style="font-size:40px; color:blue; background:white;  text-align:center; border:3px solid red; padding:10px;">ყოველთვის მივისწრაფი ჩემი მიზნებისკენ.</p>
-  <p style="font-size:40px; color:yellow; background:white;  text-align:center; border:3px solid red; padding:10px;">რაიმე თუ არ გამომდის არ ვნებდები</p>
-
-
-    <!--2) შექმენით 6 ყველანაირი სათაური და ყველას მიეცით სხვადასხვა სტილები, გაუწერეთ ყველა შესაძლო სტილის კუთვნილებები რაც გაქვთ ნასწავლი. (არ ჰქონდეთ იგივე ზომები და იგივე ფერები.)-->
- 
-  <h1 style="font-size:36px; color:red; padding:8px; background:white;">H1</h1>
-  <h2 style="font-size:32px; color:blue;  padding:6px; background:white; ">H2</h2>
-  <h3 style="font-size:28px; color:green; padding:6px; background:white; ">H3</h3>
-  <h4 style="font-size:24px; color:purple;  padding:4px; background:white; ">H4</h4>
-  <h5 style="font-size:20px; color:orange;  padding:3px; background:white; ">H5</h5>
-  <h6 style="font-size:16px; color:black;  padding:2px; background:white; ">H6</h6>
+        <!--  დავალება 1
+            შევდივართ Google Fonts-ზე
+            ვაკოპირებთ <link> ტეგს HTML ფაილში
+            ასევე შეგვიძლია CSS-ში  font-family-ს გამოყენება
+        
+        -->
 
 
-  <!--3) შექმენით 5 ღილაკი და ყველა გახადეთ 50px ზომის, მწვანე ტექსტის ფერით, ლურჯი ფონის ფერით, 5px სისქის წითელი ზღვარით და ყველა ღილაკი იდგეს სხვადასხვა ადგილას (left, center, right).-->
-
-  
-  <button style=" margin: left 1000px; margin-top: 100px; height:50px;  padding:16px; color:green; background:blue; border:5px solid red;  ">Left</button>
 
 
-  <button style=" margin-left: 900px; height:50px;   padding:20px; color:green; background:blue; border:5px solid red; ">Center</button>
+
+        <!-- 
+            დავალება 2
+
+            განსხვავება @import და <link> შორის
+
+            <link> 
+                იწერება HTML ფაილში
+                უფრო სწრაფად იტვირთება
+                რეკომენდებულია Google Fonts-ისთვის
+
+            @import
+               იწერება CSS ფაილის დასაწყისში
+               იტვირთება უფრო ნელა
+               გამოიყენება როცა CSS-იდან გვინდა სხვა CSS-ის ჩატვირთვა
+        -->
+
+    <!-- 3 -->
+    <section>
+        <h1 class="title">სათაური</h1>
+        <p class="text">
+            თუ ენერგეტიკული სასმელია შენი ენერგიის წყარო,  რა ხარ მის გარეშე.
+        </p>
+    </section>
 
 
-  <button style=" margin-left: 970px;   height: 50px;  padding:12px; color:green; background:blue; border:5px solid red; ">Right</button>
+    <!-- 4 -->
+    <div class="quote1">
+        <p class="quote2">
+            "Not all those who wander are lost."
+        </p>
+        <p class="author">– J.R.R. Tolkien</p>
+    </div>
 
-  
 
+    <!-- 5 -->
+    <section class="hero1">
+        <h1 class="hero2">Welcome to My Website</h1>
+    </section>
 
 </body>
 </html>
