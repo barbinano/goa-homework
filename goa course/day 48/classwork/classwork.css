@@ -1,0 +1,15 @@
+.parent {
+  width: 700px;
+  height: 700px;
+  border: 3px solid red;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  font-size: 40px;
+
+}

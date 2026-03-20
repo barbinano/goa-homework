@@ -1,0 +1,122 @@
+
+
+
+.title-leaderboard,
+.title-people,
+.title-numbers {
+  margin-top: 40px;
+}
+
+
+.table-leaderboard {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.thead-leaderboard {
+  background: #0aa37f;
+  color: white;
+}
+
+.th-leaderboard {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.td-leaderboard {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.tr-leaderboard-highlight {
+  background: #e8f7f3;
+}
+
+
+
+.table-people {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.thead-people {
+  background: #333;
+  color: white;
+}
+
+.th-people {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.td-people {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+.table-numbers {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.thead-numbers {
+  background: #f1c40f;
+}
+
+.th-numbers {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.td-numbers {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* color blocks */
+.td-one {
+  background: #f39c12;
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.td-two {
+  background: #e74c3c;
+  color: white;
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.td-three {
+  background: #2ecc71;
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.td-four {
+  background: #3498db;
+  color: white;
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
