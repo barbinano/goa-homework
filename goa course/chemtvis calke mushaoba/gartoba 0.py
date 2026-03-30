@@ -1,11 +1,9 @@
-import time
-
-password = "12342"
+password = "114324356"
 
 print("Cracking Password....")
 
-for i in range(100000000):
-    guess = str(i).zfill(5)
+for i in range(1000000000000):
+    guess = str(i).zfill(len(password))
 
    
 
