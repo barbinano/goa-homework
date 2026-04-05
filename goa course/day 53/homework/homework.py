@@ -67,6 +67,21 @@
 #     return [humanYears, cat, dog]
 
 
+# def pig_it(text):
+#     result = []
+
+#     for word in text.split():
+#         if word[0].isalpha():
+#             result.append(word[1:] + word[0] + "ay")
+#         else:
+#             result.append(word)
+            
+#     final = ""
+#     for i in result:
+#         final += i + " "
+    
+#     return final.strip()
+            
 
 
 
@@ -81,5 +96,3 @@
 
 
 
-
-w
