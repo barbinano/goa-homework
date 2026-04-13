@@ -41,7 +41,7 @@
 
 /* Task 4 */
 
-/* flex-grow განსაზღვრავს რამდენად გაიზრდება ელემენტი
+/* flex-grow განსაზღვრავს რამდენად გაიზრდება ელემენტი 
    თავისუფალი სივრცის მიხედვით  */
 
 
@@ -112,7 +112,6 @@
 .b1,.b2,.b3 {
       
   display: flex;
-  margin: 20px 0;
   flex-basis: 150px;
   border: 2px solid red ;
   background-color: blue; 
@@ -133,18 +132,20 @@
 
 /* Task 11 */
 .task11 {  
-    border: 2px solid black;
-  background-color: green;
-      
+  border: 2px solid black;
+  background-color: green;   
   display: flex;
   margin: 20px 0;
   width: 400px;
 }
-.gurami {    border: 2px solid red ;
+.gurami {    
+  border: 2px solid red ;
   background-color: blue; 
   flex-basis: 200px;
+  flex-shrink: 1;
 }
-.no-shrink {    border: 2px solid red ;
+.no-shrink {    
+  border: 2px solid red ;
   background-color: blue; 
   flex-basis: 200px;
   flex-shrink: 0;
@@ -152,15 +153,14 @@
 
 /* Task 12 */
 .task12 {
-        border: 2px solid black;
+  border: 2px solid black;
   background-color: green;
-      
   display: flex;
   margin: 20px 0;
   width: 400px;
 }
 .task12 div {
-    border: 2px solid red ;
+  border: 2px solid red ;
   background-color: blue; 
   flex-basis: 200px;
 }
@@ -186,13 +186,13 @@
 
 /* Task 14 */
 .task14 {
-        border: 2px solid black;
+  border: 2px solid black;
   background-color: green;
   display: flex;
   width: 500px;
 }
 .task14 div {
-           border: 2px solid red ;
+  border: 2px solid red ;
   background-color: blue; 
   flex-basis: 250px;
 }
@@ -204,44 +204,48 @@
 
 /* Task 15 */
 .nav2 {
-    border: 2px solid black;
+  width: 70%;
+  border: 2px solid black;
   background-color: green;
   display: flex;
-  align-items: center;
+
 }
 .logo2, .btn2 {
-    border: 2px solid red ;
+  border: 2px solid red ;
   background-color: blue; 
   flex-shrink: 0;
 }
 .menu2 {
-    border: 2px solid red ;
-  background-color: blue; 
-  flex-grow: 1;
+  border: 2px solid red ;
+  background-color: blue;   
   flex-shrink: 1;
 }
 
 
 
 /* Task 16 */
-.task16{border: 2px solid black;
-  background-color: green;}
+.task16{
+  border: 2px solid black;
+  background-color: green;
+  display: flex;
+
+}
+  
 
 .task16 div {
-    border: 2px solid red ;
+  border: 2px solid red ;
   background-color: blue; 
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 150px;
+  flex: 1 0 150px;
 }
 
 /* Task 17 */
 .task17{border: 2px solid black;
   background-color: green;}
+
 .first {border: 2px solid red ;
   background-color: blue;
   flex-grow: 0;
-  flex-shrink: 0;
+  flex-shrink: 0; 
   flex-basis: 200px;
 }
 .second {border: 2px solid red ;
