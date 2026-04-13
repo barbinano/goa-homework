@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e6eff6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+/* TOP */
+.top {
+  background: white;
+  padding: 40px;
+}
+
+.top h1 {
+  color: #2bb3b1;
+  margin-bottom: 10px;
+}
+
+.top h2 {
+  color: #bfdf32;
+  font-size: 18px;
+}
+
+.top p {
+  color: #98a6bd;
+}
+
+/* BOTTOM */
+.bottom {
+  display: flex;
+}
+
+/* LEFT */
+.left {
+  background: #2bb3b1;
+  color: white;
+  flex: 1;
+  padding: 40px;
+}
+
+.price {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.price span {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+button {
+  margin-top: 20px;
+  height: 25%;
+  width: 90%;
+  padding: 12px;
+  background: #bfdf32;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+
+/* RIGHT */
+.right {
+  background: #4abebd;
+  color: white;
+  flex: 1;
+  padding: 40px;
+}
+
+.right p {
+  opacity: 0.8;
+  margin: 5px 0;
+}
+
+
+.attribution {
+    position: fixed;
+  bottom: 0; }
