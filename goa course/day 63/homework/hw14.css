@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent{
+    width: 100px;
+    height: 100px;
+    background: url("https://www.picturecorrect.com/wp-content/uploads/2016/09/ten-tips-for-better-photos.jpg");
+}
+
+
+.parent:hover{
+    transform: scale(0.5) rotate(180deg) translateX(100px);
+}

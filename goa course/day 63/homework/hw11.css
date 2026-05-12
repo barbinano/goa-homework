@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.parent{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+
+
+.parent:hover{
+    transform: scale(3) rotate(45deg) translateY(50px);
+}

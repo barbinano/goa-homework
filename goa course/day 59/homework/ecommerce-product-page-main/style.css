@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px 40px 0px;
+    border-bottom: 1px solid hsl(0, 0%, 83%);
+    margin: 0px 400px 90px 400px;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    margin-left: 50px;
+    gap: 32px;
+}
+
+.nav-links p{
+    color: hsl(219, 9%, 45%);
+    font-size: 15px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.avatar{
+    width: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    padding-bottom: 100px;
+}
+
+.product-images{
+    width: 445px;
+}
+
+.main-img-container img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.thumbnail-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.thumbnail img{
+    width: 88px;
+    border-radius: 10px;
+}
+
+
+.product-info{
+    width: 445px;
+}
+
+.company-name{
+    color: grey;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+.product-title{
+    font-size: 44px;
+    color: hsl(220, 13%, 13%);
+    line-height: 1.1;
+    margin-bottom: 35px;
+}
+
+.product-description{
+    color: hsl(219, 9%, 45%);
+    line-height: 1.6;
+    margin-bottom: 28px;
+    font-size: 16px;
+}
+
+.price-row{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.current-price{
+    font-size: 28px;
+    font-weight: bolder;
+    color: hsl(220, 13%, 13%);
+}
+
+.discount{
+    background-color: black;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.old-price{
+    color: hsl(0, 0%, 46%);
+    text-decoration: line-through;
+    font-weight: 700;
+}
+
+.actions-row{
+    display: flex;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.quantity-selector{
+    background-color: hsl(223, 64%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 155px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+
+.num0{
+    font-weight: bold;
+}
+
+
+.add-btn{
+    flex-grow: 1;
+    background-color: hsl(26, 100%, 55%);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: 55px;
+}
+
+.btn{
+    width: 17px;
+}

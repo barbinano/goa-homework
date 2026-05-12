@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.parent{
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    background: url("https://www.picturecorrect.com/wp-content/uploads/2016/09/ten-tips-for-better-photos.jpg") no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY4y5SlwGL853bRyUZKU8EV3KLxyFKJxnkPw&s") repeat-x center/contain;
+}

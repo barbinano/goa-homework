@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    width: 150px;
+    height: 200px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+    position: relative;
+    right: 30px;
+    bottom: 20px;
+}
+
+.blue{
+    background-color: blue;
+}

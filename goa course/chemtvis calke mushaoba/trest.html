@@ -3,52 +3,143 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="csstest.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <style>
+    body{
+      margin: 0;
+      padding: 20px;
+      font-family: Arial;
+      background-color: #f5f5f5;
+    }
+
+    .navbar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .left-nav{
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .right-nav{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo{
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .register{
+      border: 1px solid black;
+      padding: 10px 15px;
+      border-radius: 10px;
+    }
+
+    .main{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    .text{
+      width: 450px;
+    }
+
+    h1{
+      font-size: 70px;
+    }
+
+    p{
+      color: gray;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    button{
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+
+    img{
+      width: 400px;
+    }
+
+    .attribution {
+      margin-top: 50px;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: blue;
+    }
+
+  </style>
 </head>
+
 <body>
-  
-<div class="card">
-  <div class="left">
-    <p class="title">Your Result</p>
 
-    <div class="circle">
-      <p class="score">76</p>
-      <p class="of">of 100</p>
+  <div class="navbar">
+
+    <div class="left-nav">
+      <div class="logo">snap</div>
+
+      <div>Features</div>
+      <div>Company</div>
+      <div>Careers</div>
+      <div>About</div>
     </div>
 
-    <p class="great">Great</p>
-    <p class="desc">
-      You scored higher than 65% of the people who have taken these tests.
-    </p>
+    <div class="right-nav">
+      <div>Login</div>
+      <div class="register">Register</div>
+    </div>
+
   </div>
 
-  <div class="right">
-    <p class="summary">Summary</p>
 
-    <div class="item red">
-      <p>Reaction</p>
-      <p class="score1"><b>80</b> / 100</p>
+  <div class="main">
+
+    <div class="text">
+
+      <h1>Make remote work</h1>
+
+      <p>
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+
+      <button>Learn more</button>
+
     </div>
 
-    <div class="item yellow">
-      <p>Memory</p>
-      <p class="score1"><b>92</b> / 100</p>
+
+    <div>
+      <img src="image-hero-desktop.png">
     </div>
 
-    <div class="item green">
-      <p>Verbal</p>
-      <p class="score1"><b>61</b> / 100</p>
-    </div>
-
-    <div class="item blue">
-      <p>Visual</p>
-      <p class="score1"><b>73</b> / 100</p>
-    </div>
-
-    <button>Continue</button>
   </div>
-</div>
+
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
 
 </body>
 </html>
